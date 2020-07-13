@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPurpleDark</item>
+        <item name="colorPrimaryDark">@color/colorPurpleDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <!--Toolbar-->
+    <style name="AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:fontFamily">@font/ubuntu_bold</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/ubuntu_bold</item>
+    </style>
+
+    <style name="ChipStyle" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:textColor">@color/colorPurpleDark</item>
+        <item name="rippleColor">@null</item>
+        <item name="closeIcon">@null</item>
+        <item name="chipBackgroundColor">@android:color/transparent</item>
+    </style>
+
+    <style name="ChipStyleDetails" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:textColor">@color/colorPurpleDark</item>
+        <item name="rippleColor">@null</item>
+        <item name="closeIcon">@null</item>
+        <item name="android:fontFamily">@font/ubuntu_bold</item>
+        <item name="chipBackgroundColor">@color/colorBlueLight</item>
+    </style>
+</resources>
